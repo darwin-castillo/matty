@@ -15,6 +15,7 @@ class MattyApp extends StatelessWidget {
       title: 'Matty - Aprende las tablas',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
+        fontFamily: 'Fredoka',
         colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF6C63FF)),
         useMaterial3: true,
       ),

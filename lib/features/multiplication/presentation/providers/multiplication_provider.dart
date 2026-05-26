@@ -44,7 +44,7 @@ class MultiplicationState {
   }) {
     return MultiplicationState(
       currentOperation: currentOperation ?? this.currentOperation,
-      selectedAnswer: selectedAnswer ?? this.selectedAnswer,
+      selectedAnswer: selectedAnswer,
       isCorrect: isCorrect,
       correctCount: correctCount ?? this.correctCount,
       incorrectCount: incorrectCount ?? this.incorrectCount,
